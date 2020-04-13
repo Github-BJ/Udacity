@@ -1,4 +1,4 @@
 # Udacity
-Udacity Content
+This is the repo for the udacity course "Nanodegree Data Science".
 
-THIS IS A COMMIT TEST2
+It contains all projects needed to archive the degree.
