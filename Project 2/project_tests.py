@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 df = pd.read_csv('data/user-item-interactions.csv')
-df_content = pd.read_csv('data/articles_community.csv')
+df_content = pd.read_csv('data/articles_community.csv', error_bad_lines=False)
 del df['Unnamed: 0']
 del df_content['Unnamed: 0']
 
